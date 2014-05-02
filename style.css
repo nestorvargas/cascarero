@@ -1,0 +1,116 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align: center;
+	background-color:#FFF8F0;;
+}
+
+img{	/* No image borders */
+	border:0px;
+}
+
+h3 {
+	font-size: 10pt;
+}
+
+h3.info {
+	font-weight: bold;
+	color: #b57;
+}
+
+h2 {
+	font-size: 12pt;
+}
+
+h1 {
+	font-size: 15pt;
+}
+
+
+
+div.left {
+	text-align: left;
+}
+
+
+div.center {
+	text-align: center;
+}
+
+div.right {
+	text-align: right;
+}
+
+
+.tablemakeform {
+  padding: 3;
+  margin-top:2px;
+  margin-bottom:2px;
+  border: 2px solid #e3e5ff;
+}
+
+.tablemakerow {
+  background: #e6e6e6;
+  text-align: left;
+  font-size: 10px;
+}
+
+.tablemakeheader {
+  font-weight: bold;
+  text-align: center;
+  font-size: 11px;
+  background: #7d9cd1;
+}
+
+.tablemakefoother {
+  font-weight: bold;
+  text-align: center;
+  font-size: 11px;
+  background: #7d9cd1;
+}
+
+.tablemakebutton {
+  border-color: #ffffff; 
+  font-weight: bold;
+  font-size: 9px;
+  background-color: #0aabbe;
+  color: #ffffff; 
+  border: 1px solid #077785;
+}
+
+/* Big box with list of options */
+#ajax_listOfOptions{
+	position:absolute;	/* Never change this one */
+	width:175px;	/* Width of box */
+	height:250px;	/* Height of box */
+	overflow:auto;	/* Scrolling features */
+	border:1px solid #317082;	/* Dark green border */
+	background-color:#FFF;	/* White background color */
+	text-align:left;
+	font-size:0.9em;
+	z-index:100;
+}
+#ajax_listOfOptions div{	/* General rule for both .optionDiv and .optionDivSelected */
+	margin:1px;		
+	padding:1px;
+	cursor:pointer;
+	font-size:0.9em;
+}
+#ajax_listOfOptions .optionDiv{	/* Div for each item in list */
+	
+}
+#ajax_listOfOptions .optionDivSelected{ /* Selected item in the list */
+	background-color:#317082;
+	color:#FFF;
+}
+#ajax_listOfOptions_iframe{
+	background-color:#F00;
+	position:absolute;
+	z-index:5;
+}
+
+form{
+	display:inline;
+}
+
+/* termina el css del dynamic list */
